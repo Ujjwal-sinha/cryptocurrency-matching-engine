@@ -1,0 +1,31 @@
+# Core dependencies
+flask==2.3.3
+flask-cors==4.0.0
+websockets==11.0.3
+asyncio-mqtt==0.13.0
+
+# Data handling
+decimal==1.70
+numpy==1.24.3
+pandas==2.0.3
+
+# Testing
+pytest==7.4.2
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-benchmark==4.0.0
+
+# Performance and monitoring
+psutil==5.9.5
+memory-profiler==0.61.0
+line-profiler==4.1.1
+
+# Utilities
+python-dateutil==2.8.2
+pydantic==2.3.0
+click==8.1.7
+
+# Development
+black==23.7.0
+flake8==6.0.0
+mypy==1.5.1
