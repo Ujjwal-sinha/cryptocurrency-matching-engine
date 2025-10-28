@@ -1394,3 +1394,215 @@ Traceback (most recent call last):
   File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
     raise self.protocol.handshake_exc
 websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-28 23:11:17 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-28 23:11:17 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-28 23:11:17 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-28 23:11:17 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-28 23:11:17 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-28 23:11:17 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://127.0.0.1:8080
+2025-10-28 23:11:17 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-10-28 23:11:18 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-28 23:11:18 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-28 23:11:18 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-28 23:11:20 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:11:20] "GET /health HTTP/1.1" 200 -
+2025-10-28 23:11:49 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-28 23:11:49 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-28 23:11:49 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-28 23:11:49 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-28 23:11:49 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-28 23:11:50 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-28 23:11:50 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-28 23:11:50 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-28 23:11:50 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8081): [errno 48] address already in use
+2025-10-28 23:11:50 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8081): [errno 48] address already in use
+2025-10-28 23:17:17 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:17:17] "GET /health HTTP/1.1" 200 -
+2025-10-28 23:17:39 - src.core.order_book - INFO - __init__:128 - Initialized order book for BTC-USDT
+2025-10-28 23:17:39 - src.core.matching_engine - INFO - add_order_book:66 - Added order book for BTC-USDT
+2025-10-28 23:17:39 - src.core.matching_engine - INFO - submit_order:104 - Processed order bcdc7223-3396-44d1-a717-a626efa4e700: 0 trades executed
+2025-10-28 23:17:39 - src.api.rest_api - INFO - submit_order:122 - Order submitted: bcdc7223-3396-44d1-a717-a626efa4e700
+2025-10-28 23:17:39 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:17:39] "POST /orders HTTP/1.1" 200 -
+2025-10-28 23:55:21 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-28 23:55:21 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-28 23:55:21 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-28 23:55:21 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-28 23:55:21 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-28 23:55:22 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-28 23:55:22 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-28 23:55:22 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-28 23:55:22 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('::1', 8081, 0, 0): [errno 48] address already in use
+2025-10-28 23:55:22 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('::1', 8081, 0, 0): [errno 48] address already in use
+2025-10-28 23:55:31 - src.core.matching_engine - INFO - submit_order:104 - Processed order eafd6c58-8a69-449c-8d67-1a595b31c907: 0 trades executed
+2025-10-28 23:55:31 - src.api.rest_api - INFO - submit_order:122 - Order submitted: eafd6c58-8a69-449c-8d67-1a595b31c907
+2025-10-28 23:55:31 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:55:31] "POST /orders HTTP/1.1" 200 -
+2025-10-28 23:55:58 - src.core.matching_engine - INFO - submit_order:104 - Processed order aaecba1a-0619-4aec-9911-272c353a4420: 1 trades executed
+2025-10-28 23:55:58 - src.api.rest_api - INFO - submit_order:122 - Order submitted: aaecba1a-0619-4aec-9911-272c353a4420
+2025-10-28 23:55:58 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:55:58] "POST /orders HTTP/1.1" 200 -
+2025-10-28 23:56:12 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:56:12] "GET /orderbook/BTC-USDT?depth=5 HTTP/1.1" 200 -
+2025-10-28 23:56:23 - src.core.matching_engine - INFO - submit_order:104 - Processed order f5fe344a-32a7-4a9f-af4d-cfd0c2e83245: 0 trades executed
+2025-10-28 23:56:23 - src.api.rest_api - INFO - submit_order:122 - Order submitted: f5fe344a-32a7-4a9f-af4d-cfd0c2e83245
+2025-10-28 23:56:23 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:56:23] "POST /orders HTTP/1.1" 200 -
+2025-10-28 23:56:28 - src.core.matching_engine - INFO - submit_order:104 - Processed order 13dcc056-a622-4049-891f-52a564a0afef: 0 trades executed
+2025-10-28 23:56:28 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 13dcc056-a622-4049-891f-52a564a0afef
+2025-10-28 23:56:28 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:56:28] "POST /orders HTTP/1.1" 200 -
+2025-10-28 23:56:46 - src.core.matching_engine - INFO - submit_order:104 - Processed order a3196293-2730-48b7-880e-04d2a7c44c5b: 0 trades executed
+2025-10-28 23:56:46 - src.api.rest_api - INFO - submit_order:122 - Order submitted: a3196293-2730-48b7-880e-04d2a7c44c5b
+2025-10-28 23:56:46 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:56:46] "POST /orders HTTP/1.1" 200 -
+2025-10-28 23:56:57 - src.core.matching_engine - INFO - submit_order:104 - Processed order 8ec47298-bcb5-495d-b405-e72721d07af1: 3 trades executed
+2025-10-28 23:56:57 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 8ec47298-bcb5-495d-b405-e72721d07af1
+2025-10-28 23:56:57 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [28/Oct/2025 23:56:57] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:27 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 00:15:27 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 00:15:27 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 00:15:27 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 00:15:27 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-29 00:15:28 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-29 00:15:28 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-29 00:15:28 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-29 00:15:28 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8081): [errno 48] address already in use
+2025-10-29 00:15:28 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8081): [errno 48] address already in use
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "GET /health HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - INFO - submit_order:104 - Processed order b889f3b8-8413-4c25-b2c6-e2e2d5de0a9f: 0 trades executed
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: b889f3b8-8413-4c25-b2c6-e2e2d5de0a9f
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - INFO - submit_order:104 - Processed order 3a099286-fcdc-4e51-b0ff-258bb7c4f4fc: 1 trades executed
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 3a099286-fcdc-4e51-b0ff-258bb7c4f4fc
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "GET /orderbook/BTC-USDT?depth=5 HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - INFO - submit_order:104 - Processed order 076f9fe8-6f8b-4a7c-a1ec-4deebd940366: 3 trades executed
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 076f9fe8-6f8b-4a7c-a1ec-4deebd940366
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - INFO - submit_order:104 - Processed order 5837d31f-8565-4808-95f9-a9efab501227: 0 trades executed
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 5837d31f-8565-4808-95f9-a9efab501227
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - INFO - submit_order:104 - Processed order ef83324f-0dcd-45d8-92bb-93905b3caa7c: 0 trades executed
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: ef83324f-0dcd-45d8-92bb-93905b3caa7c
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - INFO - submit_order:104 - Processed order d838a0a8-b940-4dd1-92ac-98a184955d03: 0 trades executed
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: d838a0a8-b940-4dd1-92ac-98a184955d03
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - INFO - submit_order:104 - Processed order 511c5147-56ba-42c7-8863-ebb5d208e4ca: 3 trades executed
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 511c5147-56ba-42c7-8863-ebb5d208e4ca
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - src.core.matching_engine - WARNING - _validate_order:142 - FOK order 87e84f83-9b73-4de4-ba5b-702aed3d95f0 cannot be filled fully
+2025-10-29 00:15:30 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 87e84f83-9b73-4de4-ba5b-702aed3d95f0
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:15:30 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:15:30] "GET /statistics HTTP/1.1" 200 -
+2025-10-29 00:56:35 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 00:56:35 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 00:56:35 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 00:56:35 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 00:56:35 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-29 00:56:35 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+2025-10-29 00:56:35 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-10-29 00:56:36 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-29 00:56:36 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-29 00:56:36 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-29 00:57:14 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 00:57:14 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 00:57:14 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 00:57:14 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 00:57:14 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-29 00:57:14 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+2025-10-29 00:57:14 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-10-29 00:57:15 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-29 00:57:15 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-29 00:57:15 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-29 00:57:26 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 00:57:26 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 00:57:26 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 00:57:26 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 00:57:26 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-29 00:57:27 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-29 00:57:27 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-29 00:57:27 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-29 00:57:27 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('::1', 8081, 0, 0): [errno 48] address already in use
+2025-10-29 00:57:27 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('::1', 8081, 0, 0): [errno 48] address already in use
+2025-10-29 00:57:29 - src.core.order_book - INFO - __init__:128 - Initialized order book for BTC-USDT
+2025-10-29 00:57:29 - src.core.matching_engine - INFO - add_order_book:66 - Added order book for BTC-USDT
+2025-10-29 00:57:29 - src.core.matching_engine - INFO - submit_order:104 - Processed order 82544456-5ddc-480c-b7b9-f218b0fbba53: 0 trades executed
+2025-10-29 00:57:29 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 82544456-5ddc-480c-b7b9-f218b0fbba53
+2025-10-29 00:57:29 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:57:29] "POST /orders HTTP/1.1" 200 -
+2025-10-29 00:57:37 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 00:57:37 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 00:57:37 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 00:57:37 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 00:57:37 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-29 00:57:38 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-29 00:57:38 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-29 00:57:38 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-29 00:57:38 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('::1', 8081, 0, 0): [errno 48] address already in use
+2025-10-29 00:57:38 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('::1', 8081, 0, 0): [errno 48] address already in use
+2025-10-29 00:58:25 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 00:58:25 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 00:58:25 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 00:58:25 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 00:58:25 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:9090
+2025-10-29 00:58:25 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9090
+ * Running on http://192.168.1.3:9090
+2025-10-29 00:58:25 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-10-29 00:58:26 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:9091
+2025-10-29 00:58:26 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:9091
+2025-10-29 00:58:26 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:9091
+2025-10-29 00:59:38 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:59:38] "GET /health HTTP/1.1" 200 -
+2025-10-29 00:59:42 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:59:42] "GET /health HTTP/1.1" 200 -
+2025-10-29 00:59:49 - src.core.order_book - INFO - __init__:128 - Initialized order book for BTC-USDT
+2025-10-29 00:59:49 - src.core.matching_engine - INFO - add_order_book:66 - Added order book for BTC-USDT
+2025-10-29 00:59:49 - src.core.matching_engine - INFO - submit_order:104 - Processed order c93248c4-6abc-42a6-837f-fbfc000c9e0b: 0 trades executed
+2025-10-29 00:59:49 - src.api.rest_api - INFO - submit_order:122 - Order submitted: c93248c4-6abc-42a6-837f-fbfc000c9e0b
+2025-10-29 00:59:49 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 00:59:49] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:00:08 - src.core.matching_engine - INFO - submit_order:104 - Processed order a1858587-6e49-4994-99d9-eacdf7ce324e: 1 trades executed
+2025-10-29 01:00:08 - src.api.rest_api - INFO - submit_order:122 - Order submitted: a1858587-6e49-4994-99d9-eacdf7ce324e
+2025-10-29 01:00:08 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:00:08] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:00:40 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:00:40] "GET /orderbook/BTC-USDT?depth=5 HTTP/1.1" 200 -
+2025-10-29 01:01:01 - src.core.matching_engine - INFO - submit_order:104 - Processed order efe181c3-dd57-4e3c-9afd-161c5c588c05: 0 trades executed
+2025-10-29 01:01:01 - src.api.rest_api - INFO - submit_order:122 - Order submitted: efe181c3-dd57-4e3c-9afd-161c5c588c05
+2025-10-29 01:01:01 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:01:01] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:01:05 - src.core.matching_engine - INFO - submit_order:104 - Processed order da4b8930-694f-454d-ad33-27f4efc34e58: 0 trades executed
+2025-10-29 01:01:05 - src.api.rest_api - INFO - submit_order:122 - Order submitted: da4b8930-694f-454d-ad33-27f4efc34e58
+2025-10-29 01:01:05 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:01:05] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:01:08 - src.core.matching_engine - INFO - submit_order:104 - Processed order d2ac0251-312a-4e4f-9017-63399d25e7c2: 0 trades executed
+2025-10-29 01:01:08 - src.api.rest_api - INFO - submit_order:122 - Order submitted: d2ac0251-312a-4e4f-9017-63399d25e7c2
+2025-10-29 01:01:08 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:01:08] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:01:20 - src.core.matching_engine - INFO - submit_order:104 - Processed order be5f583f-aba6-4bb4-a6f0-d11d7aaa6971: 3 trades executed
+2025-10-29 01:01:20 - src.api.rest_api - INFO - submit_order:122 - Order submitted: be5f583f-aba6-4bb4-a6f0-d11d7aaa6971
+2025-10-29 01:01:20 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:01:20] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:01:32 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:01:32] "GET /orderbook/BTC-USDT?depth=10 HTTP/1.1" 200 -
+2025-10-29 01:01:44 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:01:44] "GET /statistics HTTP/1.1" 200 -
+2025-10-29 01:02:50 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 01:02:50 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 01:02:50 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 01:02:50 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 01:02:50 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:9090
+2025-10-29 01:02:51 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:9091
+2025-10-29 01:02:51 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:9091
+2025-10-29 01:02:51 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:9091
+2025-10-29 01:02:51 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('::1', 9091, 0, 0): [errno 48] address already in use
+2025-10-29 01:02:51 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('::1', 9091, 0, 0): [errno 48] address already in use
+2025-10-29 01:13:42 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 01:13:42 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 01:13:42 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 01:13:42 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 01:13:42 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:9090
+2025-10-29 01:13:43 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:9091
+2025-10-29 01:13:43 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:9091
+2025-10-29 01:13:43 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:9091
+2025-10-29 01:13:43 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 9091): [errno 48] address already in use
+2025-10-29 01:13:43 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 9091): [errno 48] address already in use
+2025-10-29 01:13:52 - src.core.matching_engine - INFO - submit_order:104 - Processed order 28dc860d-c218-4aba-bddf-240314181228: 0 trades executed
+2025-10-29 01:13:52 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 28dc860d-c218-4aba-bddf-240314181228
+2025-10-29 01:13:52 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:13:52] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:14:38 - src.core.matching_engine - INFO - submit_order:104 - Processed order d0006555-9bda-44b5-8cab-117a5d163015: 1 trades executed
+2025-10-29 01:14:38 - src.api.rest_api - INFO - submit_order:122 - Order submitted: d0006555-9bda-44b5-8cab-117a5d163015
+2025-10-29 01:14:38 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:14:38] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:14:58 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:14:58] "GET /orderbook/BTC-USDT?depth=5 HTTP/1.1" 200 -
