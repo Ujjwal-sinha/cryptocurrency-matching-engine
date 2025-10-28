@@ -28,11 +28,11 @@ class MatchingEngine:
     - Real-time trade execution and market data
     - Comprehensive logging and monitoring
     """
-    
+  
     def __init__(self):
         """Initialize the matching engine."""
         self.order_books: Dict[str, OrderBook] = {}
-        
+     
         # Callbacks for real-time data
         self.trade_callbacks: List[Callable[[Trade], None]] = []
         self.market_data_callbacks: List[Callable[[Dict[str, Any]], None]] = []

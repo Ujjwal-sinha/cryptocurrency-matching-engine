@@ -1606,3 +1606,24 @@ websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
 2025-10-29 01:14:38 - src.api.rest_api - INFO - submit_order:122 - Order submitted: d0006555-9bda-44b5-8cab-117a5d163015
 2025-10-29 01:14:38 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:14:38] "POST /orders HTTP/1.1" 200 -
 2025-10-29 01:14:58 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:14:58] "GET /orderbook/BTC-USDT?depth=5 HTTP/1.1" 200 -
+2025-10-29 01:25:24 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-29 01:25:24 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-29 01:25:24 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-29 01:25:24 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-29 01:25:24 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:9090
+2025-10-29 01:25:25 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:9091
+2025-10-29 01:25:25 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:9091
+2025-10-29 01:25:25 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:9091
+2025-10-29 01:25:25 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('::1', 9091, 0, 0): [errno 48] address already in use
+2025-10-29 01:25:25 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('::1', 9091, 0, 0): [errno 48] address already in use
+2025-10-29 01:25:39 - src.core.matching_engine - INFO - submit_order:104 - Processed order 3bd63e88-29ac-41f2-b72d-d279877894e7: 0 trades executed
+2025-10-29 01:25:39 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 3bd63e88-29ac-41f2-b72d-d279877894e7
+2025-10-29 01:25:39 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:25:39] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:26:19 - src.core.matching_engine - INFO - submit_order:104 - Processed order 581fa224-ef6c-4585-a7b0-dbd5bc034f96: 1 trades executed
+2025-10-29 01:26:19 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 581fa224-ef6c-4585-a7b0-dbd5bc034f96
+2025-10-29 01:26:19 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:26:19] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:26:42 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:26:42] "GET /orderbook/BTC-USDT?depth=5 HTTP/1.1" 200 -
+2025-10-29 01:27:36 - src.core.matching_engine - INFO - submit_order:104 - Processed order 7390198d-5290-4668-acf8-901c48834f15: 0 trades executed
+2025-10-29 01:27:36 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 7390198d-5290-4668-acf8-901c48834f15
+2025-10-29 01:27:36 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:27:36] "POST /orders HTTP/1.1" 200 -
+2025-10-29 01:28:00 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [29/Oct/2025 01:28:00] "GET /orderbook/BTC-USDT?depth=10 HTTP/1.1" 200 -
