@@ -12,6 +12,10 @@ from decimal import Decimal
 from typing import List, Dict, Any
 import statistics
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.core.matching_engine import MatchingEngine
 from src.core.order import Order
 from src.core.order_types import OrderType, OrderSide

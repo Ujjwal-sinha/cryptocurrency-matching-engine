@@ -1,0 +1,1396 @@
+2025-10-26 00:26:36 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 00:26:36 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 00:26:36 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 00:26:36 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 00:26:36 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 00:26:37 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 00:26:37 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 00:26:37 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 00:34:15 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 00:34:15 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 00:34:15 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 00:34:15 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 00:34:15 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 00:34:16 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 00:34:16 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 00:34:16 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 00:34:16 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8765): [errno 48] address already in use
+2025-10-26 00:34:16 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8765): [errno 48] address already in use
+2025-10-26 00:34:50 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 00:34:50 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 00:34:50 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 00:34:50 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 00:34:50 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 00:34:51 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 00:34:51 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 00:34:51 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 00:34:51 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('::1', 8765, 0, 0): [errno 48] address already in use
+2025-10-26 00:34:51 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('::1', 8765, 0, 0): [errno 48] address already in use
+2025-10-26 00:35:51 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 00:35:51 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 00:35:51 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 00:35:51 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 00:35:51 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 00:35:52 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 00:35:52 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 00:35:52 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 00:37:30 - __main__ - INFO - signal_handler:127 - Received signal 2, shutting down...
+2025-10-26 00:37:39 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 00:37:39 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 00:37:39 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 00:37:39 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 00:37:39 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 00:37:40 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 00:37:40 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 00:37:40 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 15:01:01 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 15:01:01 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 15:01:01 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 15:01:01 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 15:01:01 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 15:01:02 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 15:01:02 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 15:01:02 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 15:01:03 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('::1', 8765, 0, 0): [errno 48] address already in use
+2025-10-26 15:01:03 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('::1', 8765, 0, 0): [errno 48] address already in use
+2025-10-26 15:01:52 - __main__ - INFO - signal_handler:127 - Received signal 2, shutting down...
+2025-10-26 15:06:01 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 15:06:01 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 15:06:01 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 15:06:01 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 15:06:01 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-26 15:06:01 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+2025-10-26 15:06:01 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-10-26 15:06:02 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-26 15:06:02 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-26 15:06:02 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-26 15:06:38 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 15:06:38 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 15:06:38 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 15:06:38 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 15:06:38 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 15:06:39 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 15:06:39 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 15:06:39 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 15:10:18 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 15:10:18 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 15:10:18 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 15:10:18 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 15:10:18 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:5000
+2025-10-26 15:10:19 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8765
+2025-10-26 15:10:19 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8765
+2025-10-26 15:10:19 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8765
+2025-10-26 15:10:19 - __main__ - ERROR - _start_websocket_server:104 - Error starting WebSocket server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8765): [errno 48] address already in use
+2025-10-26 15:10:19 - __main__ - ERROR - start:65 - Error starting server: [Errno 48] error while attempting to bind on address ('127.0.0.1', 8765): [errno 48] address already in use
+2025-10-26 15:18:56 - src.utils.logger - INFO - setup_logging:81 - Logging initialized - Level: INFO, File: logs/matching_engine.log
+2025-10-26 15:18:56 - __main__ - INFO - __init__:48 - Matching engine server initialized
+2025-10-26 15:18:56 - __main__ - INFO - start:53 - Starting matching engine server...
+2025-10-26 15:18:56 - src.api.rest_api - INFO - create_app:53 - REST API initialized
+2025-10-26 15:18:56 - __main__ - INFO - run_rest_server:73 - Starting REST API server on 0.0.0.0:8080
+2025-10-26 15:18:56 - werkzeug - INFO - _log:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+2025-10-26 15:18:56 - werkzeug - INFO - _log:97 - [33mPress CTRL+C to quit[0m
+2025-10-26 15:18:57 - src.api.websocket_api - INFO - __init__:51 - WebSocket server initialized on localhost:8081
+2025-10-26 15:18:57 - __main__ - INFO - _start_websocket_server:98 - Starting WebSocket server on localhost:8081
+2025-10-26 15:18:57 - src.api.websocket_api - INFO - start:55 - Starting WebSocket server on localhost:8081
+2025-10-26 15:19:20 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:19:20] "GET /health HTTP/1.1" 200 -
+2025-10-26 15:21:56 - src.core.order_book - INFO - __init__:128 - Initialized order book for BTC-USDT
+2025-10-26 15:21:56 - src.core.matching_engine - INFO - add_order_book:66 - Added order book for BTC-USDT
+2025-10-26 15:21:56 - src.core.matching_engine - INFO - submit_order:104 - Processed order cc7e6b3d-940c-4da8-a88c-32569ca3170b: 0 trades executed
+2025-10-26 15:21:56 - src.api.rest_api - INFO - submit_order:122 - Order submitted: cc7e6b3d-940c-4da8-a88c-32569ca3170b
+2025-10-26 15:21:56 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:21:56] "POST /orders HTTP/1.1" 200 -
+2025-10-26 15:22:17 - src.core.matching_engine - INFO - submit_order:104 - Processed order b0d98ea4-423d-49ba-a6e1-8609b0467b42: 1 trades executed
+2025-10-26 15:22:17 - src.api.rest_api - INFO - submit_order:122 - Order submitted: b0d98ea4-423d-49ba-a6e1-8609b0467b42
+2025-10-26 15:22:17 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:22:17] "POST /orders HTTP/1.1" 200 -
+2025-10-26 15:23:54 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:23:54] "GET /orderbook/BTC-USDT?depth=5 HTTP/1.1" 200 -
+2025-10-26 15:24:22 - src.core.matching_engine - INFO - _handle_ioc_order:218 - IOC order 9b9a0a97-dc4f-4c87-89bd-71f0be610d4a cancelled - no immediate execution
+2025-10-26 15:24:22 - src.core.matching_engine - INFO - submit_order:104 - Processed order 9b9a0a97-dc4f-4c87-89bd-71f0be610d4a: 0 trades executed
+2025-10-26 15:24:22 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 9b9a0a97-dc4f-4c87-89bd-71f0be610d4a
+2025-10-26 15:24:22 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:24:22] "POST /orders HTTP/1.1" 200 -
+2025-10-26 15:24:32 - src.core.matching_engine - WARNING - _validate_order:142 - FOK order b06bbdbe-f777-4e67-98cc-2da6e8e2caf3 cannot be filled fully
+2025-10-26 15:24:32 - src.api.rest_api - INFO - submit_order:122 - Order submitted: b06bbdbe-f777-4e67-98cc-2da6e8e2caf3
+2025-10-26 15:24:32 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:24:32] "POST /orders HTTP/1.1" 200 -
+2025-10-26 15:24:44 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:24:44] "GET /statistics HTTP/1.1" 200 -
+2025-10-26 15:24:57 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:24:57] "GET /orderbook/BTC-USDT?depth=10 HTTP/1.1" 200 -
+2025-10-26 15:25:15 - src.core.matching_engine - INFO - submit_order:104 - Processed order 283271c4-c502-4732-88bf-8f3f989bd313: 0 trades executed
+2025-10-26 15:25:15 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 283271c4-c502-4732-88bf-8f3f989bd313
+2025-10-26 15:25:15 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:25:15] "POST /orders HTTP/1.1" 200 -
+2025-10-26 15:25:15 - src.core.matching_engine - INFO - submit_order:104 - Processed order 670d689b-a891-4d6a-a750-9371745cb9ee: 0 trades executed
+2025-10-26 15:25:15 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 670d689b-a891-4d6a-a750-9371745cb9ee
+2025-10-26 15:25:15 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:25:15] "POST /orders HTTP/1.1" 200 -
+2025-10-26 15:25:15 - src.core.matching_engine - INFO - submit_order:104 - Processed order 0bf3a09d-a83e-4890-8f98-12df73f9d970: 0 trades executed
+2025-10-26 15:25:15 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 0bf3a09d-a83e-4890-8f98-12df73f9d970
+2025-10-26 15:25:15 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:25:15] "POST /orders HTTP/1.1" 200 -
+2025-10-26 15:25:28 - src.core.matching_engine - INFO - submit_order:104 - Processed order 737a11f4-135d-452d-bf64-1b03adaf96a2: 4 trades executed
+2025-10-26 15:25:28 - src.api.rest_api - INFO - submit_order:122 - Order submitted: 737a11f4-135d-452d-bf64-1b03adaf96a2
+2025-10-26 15:25:28 - werkzeug - INFO - _log:97 - 127.0.0.1 - - [26/Oct/2025 15:25:28] "POST /orders HTTP/1.1" 200 -
+2025-10-26 20:29:47 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 20:29:47 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 20:37:34 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 20:37:34 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:07:48 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:07:48 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:13 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:13 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:13 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:13 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:08:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:47:10 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 21:47:10 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 22:15:51 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 22:15:51 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:29:26 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:29:26 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:31:33 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:33:33 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:33:33 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:34:17 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:38:49 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:38:49 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:38:50 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:38:50 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:38:52 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:12 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:12 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:39:16 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:40:55 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:41:45 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:42:39 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:42:39 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:42:55 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:42:55 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:44:55 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:44:55 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-26 23:44:55 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-27 01:54:46 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-27 01:54:46 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-27 01:54:53 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-27 02:41:41 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-10-27 02:41:41 - websockets.server - ERROR - conn_handler:365 - opening handshake failed
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/http11.py", line 151, in parse
+    raise ValueError(f"unsupported HTTP method; expected GET; got {d(method)}")
+ValueError: unsupported HTTP method; expected GET; got POST
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "/Users/ujjwalsinha/cryptocurrency matching engine/venv/lib/python3.13/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
