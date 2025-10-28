@@ -49,13 +49,12 @@ A high-performance cryptocurrency matching engine implementing REG NMS principle
 
 ### Setup
 
-1. **Clone the repository**
+1. **Navigate to project directory**
    ```bash
-   git clone <repository-url>
-   cd cryptocurrency-matching-engine
+   cd /Users/ujjwalsinha/cryptocurrency\ matching\ engine
    ```
 
-2. **Create virtual environment**
+2. **Create virtual environment** (if not already created)
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
